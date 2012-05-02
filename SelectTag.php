@@ -25,9 +25,10 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 $wgExtensionCredits[ 'parserhook' ][ ] = array(
 		'name' => 'SelectTag',
-		'author' => '[http://www.expressprogs.co.uk Khaled El Mansoury]',
+		'author' => '[http://www.expressprogs.com Khaled El Mansoury]',
 		'url' => 'https://www.mediawiki.org/wiki/Extension:SelectTag',
-		'description' => 'Adds customisable <select> for inserting text via database fetching, perfect to be used for including religious texts' 
+		'description' => 'Adds customisable &lt;select&gt; for inserting text via database fetching, perfect to be used for including quotes as well as religious texts.',
+		'version' => '1.0.1' 
 );
 
 $wgHooks[ 'ParserFirstCallInit' ][ ] = 'wfSelectTagParserInit';
