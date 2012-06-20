@@ -121,6 +121,13 @@ $messages['nl'] = array(
 	'selecttag-desc' => 'Voegt een aanpasbaar label &lt;select&gt; toe voor het invoegen van tekst via een zoekopdracht in een database',
 );
 
+/** Polish (polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'selecttag-desc' => 'Dodaje personalizowane wyrażenia &lt;select&gt; by wstawiać tekst za pomocą pobierania z bazy danych',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Borichèt
  */
