@@ -93,6 +93,13 @@ $messages['it'] = array(
 	'selecttag-desc' => "Aggiunge &lt;select&gt; personalizzabile per l'inserimento di testo tramite recupero da database",
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'selecttag-desc' => 'データベースから取得したテキストを挿入するための、カスタマイズ可能な &lt;select&gt; タグを追加する',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
