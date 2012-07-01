@@ -23,7 +23,7 @@ $messages['qqq'] = array(
 	'selecttag-desc' => '{{desc}}',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -37,7 +37,7 @@ $messages['de'] = array(
 	'selecttag-desc' => 'Ergänzt das das anpassbare Tag &lt;select&gt; zum Einfügen von Text über Datenbankabfragen',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -58,7 +58,7 @@ $messages['fr'] = array(
 	'selecttag-desc' => 'Ajoute des &lt;select&gt; personnalisables pour insérer du texte depuis une interrogation de base de données',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -72,7 +72,7 @@ $messages['he'] = array(
 	'selecttag-desc' => 'הוספת &lt;select&gt; בר־התאמה להוספת טקסט על־ידי אחזור ממסד נתונים',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
