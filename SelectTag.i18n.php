@@ -23,6 +23,13 @@ $messages['qqq'] = array(
 	'selecttag-desc' => '{{desc}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'selecttag-desc' => 'Amiesta un &lt;select&gt; personalizable pa inxertar testu que se saca de la base de datos',
+);
+
 /** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
