@@ -29,7 +29,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'author' => '[http://www.expressprogs.com Khaled El Mansoury]',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:SelectTag',
 	'descriptionmsg' => 'selecttag-desc',
-	'version' => '1.0.2'
+	'version' => '1.0.3'
 );
 
 $dir = dirname( __FILE__ ) . '/';
@@ -49,7 +49,7 @@ function wfSelectTagRender( $input, array $params, Parser $parser, PPFrame $fram
 	if ( isset( $params['_source'] ) ) {
 			$sourcearray = $wgSelectTag[$params['_source']];
 	} else {
-			return '<div style="color: red;">Error! Source Tag not specified!</div>';
+			return '<div style="color: red;">' . wfMsg( 'sourceattr-unspecified' ) . '</div>';
 	}
 
 	$dbtable    = $sourcearray["_dbname"];
@@ -67,12 +67,12 @@ function wfSelectTagRender( $input, array $params, Parser $parser, PPFrame $fram
 			if ( !is_array( $value ) && substr( $value, 0, 0 ) != "_" ) {
 					if ( isset( $params[$key] ) ) {
 							$params[$key] = $parser->recursiveTagParse( $params[$key], $frame );
-							$params[$key] = $dbr->addQuotes( $params[$key] );
 							if ( strpos( $params[$key], "-" ) > -1 ) {
 									$values_array = explode( "-", $params[$key] );
 									$cond_value   = $value . " BETWEEN " . $values_array[0] . " AND " . $values_array[1];
 									unset( $values_array );
 							} else {
+									$params[$key] = $dbr->addQuotes( $params[$key] );
 									$cond_value = $value . "=" . $params[$key] . "";
 							}
 

@@ -14,6 +14,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'selecttag-desc' => 'Adds customisable &lt;select&gt; for inserting text via database fetching',
+	'sourceattr-unspecified' => 'Error! Source attribute not specified!',
 );
 
 /** Message documentation (Message documentation)
