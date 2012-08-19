@@ -134,6 +134,7 @@ $messages['mk'] = array(
  */
 $messages['nl'] = array(
 	'selecttag-desc' => 'Voegt een aanpasbaar label &lt;select&gt; toe voor het invoegen van tekst via een zoekopdracht in een database',
+	'sourceattr-unspecified' => 'Fout: er is geen bronattribuut opgegeven.',
 );
 
 /** Polish (polski)
