@@ -44,6 +44,7 @@ $messages['be-tarask'] = array(
  */
 $messages['de'] = array(
 	'selecttag-desc' => 'Ergänzt das das anpassbare Tag &lt;select&gt; zum Einfügen von Text über Datenbankabfragen',
+	'sourceattr-unspecified' => 'Fehler: Das Quellattribut wurde nicht angegeben.',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -51,6 +52,7 @@ $messages['de'] = array(
  */
 $messages['dsb'] = array(
 	'selecttag-desc' => 'Pśidawa pśiměrjobny toflicku &lt;select&gt; za zasunjenje teksta pśez wopšašowanje datowych bankow',
+	'sourceattr-unspecified' => 'Zmólka! Žrědłowy atribut njejo pódany!',
 );
 
 /** Spanish (español)
@@ -72,6 +74,7 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'selecttag-desc' => 'Engade a etiqueta personalizada &lt;select&gt; para inserir texto a través de procuras na base de datos',
+	'sourceattr-unspecified' => 'Erro! Non se especificou o atributo de orixe!',
 );
 
 /** Hebrew (עברית)
@@ -86,6 +89,7 @@ $messages['he'] = array(
  */
 $messages['hsb'] = array(
 	'selecttag-desc' => 'Přidawa přiměrjomny tafličku &lt;select&gt; za zasunjenje teksta přez woprašowanje datowych bankow',
+	'sourceattr-unspecified' => 'Zmylk! Žórłowy atribut njeje podaty!',
 );
 
 /** Interlingua (interlingua)
@@ -128,6 +132,7 @@ $messages['ksh'] = array(
  */
 $messages['mk'] = array(
 	'selecttag-desc' => 'Додава прилагодливо &lt;select&gt; за вметнување на текст преку аземањето од база',
+	'sourceattr-unspecified' => 'Грешка! Не е укажан атрибут за извор!',
 );
 
 /** Dutch (Nederlands)
@@ -157,5 +162,6 @@ $messages['pms'] = array(
  */
 $messages['tl'] = array(
 	'selecttag-desc' => 'Nagdaragdag ng maipapasadyang &lt;piliin&gt; para sa pagsisingit ng teksto sa pamamagitan ng pagsalok ng kalipunan ng dato',
+	'sourceattr-unspecified' => 'Kamalian! Hindi tinukoy ang katangian ng pinagmulan!',
 );
 
