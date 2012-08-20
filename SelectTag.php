@@ -49,7 +49,7 @@ function wfSelectTagRender( $input, array $params, Parser $parser, PPFrame $fram
 	if ( isset( $params['_source'] ) ) {
 			$sourcearray = $wgSelectTag[$params['_source']];
 	} else {
-			return '<div style="color: red;">' . wfMsg( 'sourceattr-unspecified' ) . '</div>';
+			return '<div style="color: red;">' . wfMsg( 'selecttag-sourceattr-unspecified' ) . '</div>';
 	}
 
 	$dbtable    = $sourcearray["_dbname"];

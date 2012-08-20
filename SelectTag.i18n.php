@@ -14,7 +14,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'selecttag-desc' => 'Adds customisable &lt;select&gt; for inserting text via database fetching',
-	'sourceattr-unspecified' => 'Error: Source attribute not specified.',
+	'selecttag-sourceattr-unspecified' => 'Error: Source attribute not specified.',
 );
 
 /** Message documentation (Message documentation)
@@ -22,7 +22,7 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'selecttag-desc' => '{{desc}}',
-	'sourceattr-unspecified' => 'Message shown to the user when the _source attribute in the <select /> tag is missing.',
+	'selecttag-sourceattr-unspecified' => 'Message shown to the user when the _source attribute in the <select /> tag is missing.',
 );
 
 /** Asturian (asturianu)
