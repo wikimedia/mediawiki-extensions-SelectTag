@@ -44,7 +44,7 @@ $messages['be-tarask'] = array(
  */
 $messages['de'] = array(
 	'selecttag-desc' => 'Ergänzt das das anpassbare Tag &lt;select&gt; zum Einfügen von Text über Datenbankabfragen',
-	'sourceattr-unspecified' => 'Fehler: Das Quellattribut wurde nicht angegeben.',
+	'selecttag-sourceattr-unspecified' => 'Fehler: Das Quellattribut wurde nicht angegeben.',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -60,6 +60,7 @@ $messages['dsb'] = array(
  */
 $messages['es'] = array(
 	'selecttag-desc' => 'Agrega &lt;select&gt; personalizable para insertar texto a través de la extracción de la base de datos',
+	'selecttag-sourceattr-unspecified' => 'Error: Atributo de fuente no especificado.',
 );
 
 /** French (français)
@@ -74,7 +75,7 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'selecttag-desc' => 'Engade a etiqueta personalizada &lt;select&gt; para inserir texto a través de procuras na base de datos',
-	'sourceattr-unspecified' => 'Erro! Non se especificou o atributo de orixe!',
+	'selecttag-sourceattr-unspecified' => 'Erro: Non se especificou o atributo de orixe.',
 );
 
 /** Hebrew (עברית)
