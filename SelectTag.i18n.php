@@ -112,6 +112,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'selecttag-desc' => 'データベースから取得したテキストを挿入するための、カスタマイズ可能な &lt;select&gt; タグを追加する',
+	'selecttag-sourceattr-unspecified' => 'エラー: ソース属性が指定されていません。',
 );
 
 /** Korean (한국어)
