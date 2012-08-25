@@ -83,6 +83,7 @@ $messages['gl'] = array(
  */
 $messages['he'] = array(
 	'selecttag-desc' => 'הוספת &lt;select&gt; בר־התאמה להוספת טקסט על־ידי אחזור ממסד נתונים',
+	'selecttag-sourceattr-unspecified' => 'שגיאה: מאפיין source לא צוין.',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -102,9 +103,11 @@ $messages['ia'] = array(
 
 /** Italian (italiano)
  * @author Beta16
+ * @author Darth Kule
  */
 $messages['it'] = array(
 	'selecttag-desc' => "Aggiunge &lt;select&gt; personalizzabile per l'inserimento di testo tramite recupero da database",
+	'selecttag-sourceattr-unspecified' => "Errore: non è stato specificato l'attributo sorgente.",
 );
 
 /** Japanese (日本語)
