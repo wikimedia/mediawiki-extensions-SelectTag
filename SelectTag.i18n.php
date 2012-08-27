@@ -30,6 +30,7 @@ $messages['qqq'] = array(
  */
 $messages['ast'] = array(
 	'selecttag-desc' => 'Amiesta un &lt;select&gt; personalizable pa inxertar testu que se saca de la base de datos',
+	'selecttag-sourceattr-unspecified' => "Error: Nun s'especificó l'atributu d'orixe.",
 );
 
 /** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
