@@ -158,9 +158,11 @@ $messages['pl'] = array(
 
 /** Piedmontese (Piemontèis)
  * @author Borichèt
+ * @author Dragonòt
  */
 $messages['pms'] = array(
 	'selecttag-desc' => "A gionta dij &lt;select&gt; përsonalisàbij për anserì dël test a travers n'anterogassion ëd base ëd dat",
+	'selecttag-sourceattr-unspecified' => "Eror: L'atribù Sorziss a l'é pa stait specificà.",
 );
 
 /** Tagalog (Tagalog)
