@@ -124,6 +124,7 @@ $messages['ja'] = array(
  */
 $messages['ko'] = array(
 	'selecttag-desc' => '데이터베이스 가져오기를 통해 텍스트를 삽입하기 위핸 사용자 정의 &lt;select&gt; 추가',
+	'selecttag-sourceattr-unspecified' => '오류: 원본 특정을 지정하지 않았습니다.',
 );
 
 /** Colognian (Ripoarisch)
