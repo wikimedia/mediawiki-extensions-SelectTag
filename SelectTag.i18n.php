@@ -155,6 +155,7 @@ $messages['nl'] = array(
  */
 $messages['pl'] = array(
 	'selecttag-desc' => 'Dodaje personalizowane wyrażenia &lt;select&gt; by wstawiać tekst za pomocą pobierania z bazy danych',
+	'selecttag-sourceattr-unspecified' => 'Błąd: nie wskazano atrybutu źródła',
 );
 
 /** Piedmontese (Piemontèis)
