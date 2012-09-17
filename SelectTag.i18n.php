@@ -132,6 +132,7 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'selecttag-desc' => 'Deiht dä aanpaßbaa Befähl &lt;select&gt; en et Wiki, öm dermet Täx övver Affroore en de Datebangk enföje ze künne.',
+	'selecttag-sourceattr-unspecified' => 'Fähler: Quälle-Eijeschaff nit aanjejovve.',
 );
 
 /** Macedonian (македонски)
