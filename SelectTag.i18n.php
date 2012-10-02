@@ -19,6 +19,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author Raymond
  */
 $messages['qqq'] = array(
 	'selecttag-desc' => '{{desc}}',
@@ -33,7 +34,7 @@ $messages['ast'] = array(
 	'selecttag-sourceattr-unspecified' => "Error: Nun s'especificó l'atributu d'orixe.",
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -53,7 +54,7 @@ $messages['de'] = array(
  */
 $messages['dsb'] = array(
 	'selecttag-desc' => 'Pśidawa pśiměrjobny toflicku &lt;select&gt; za zasunjenje teksta pśez wopšašowanje datowych bankow',
-	'sourceattr-unspecified' => 'Zmólka! Žrědłowy atribut njejo pódany!',
+	'selecttag-sourceattr-unspecified' => 'Zmólka! Žrědłowy atribut njejo pódany!',
 );
 
 /** Spanish (español)
@@ -92,7 +93,7 @@ $messages['he'] = array(
  */
 $messages['hsb'] = array(
 	'selecttag-desc' => 'Přidawa přiměrjomny tafličku &lt;select&gt; za zasunjenje teksta přez woprašowanje datowych bankow',
-	'sourceattr-unspecified' => 'Zmylk! Žórłowy atribut njeje podaty!',
+	'selecttag-sourceattr-unspecified' => 'Zmylk! Žórłowy atribut njeje podaty!',
 );
 
 /** Interlingua (interlingua)
@@ -140,7 +141,7 @@ $messages['ksh'] = array(
  */
 $messages['mk'] = array(
 	'selecttag-desc' => 'Додава прилагодливо &lt;select&gt; за вметнување на текст преку аземањето од база',
-	'sourceattr-unspecified' => 'Грешка! Не е укажан атрибут за извор!',
+	'selecttag-sourceattr-unspecified' => 'Грешка! Не е укажан атрибут за извор!',
 );
 
 /** Dutch (Nederlands)
@@ -148,7 +149,7 @@ $messages['mk'] = array(
  */
 $messages['nl'] = array(
 	'selecttag-desc' => 'Voegt een aanpasbaar label &lt;select&gt; toe voor het invoegen van tekst via een zoekopdracht in een database',
-	'sourceattr-unspecified' => 'Fout: er is geen bronattribuut opgegeven.',
+	'selecttag-sourceattr-unspecified' => 'Fout: er is geen bronattribuut opgegeven.',
 );
 
 /** Polish (polski)
@@ -173,6 +174,6 @@ $messages['pms'] = array(
  */
 $messages['tl'] = array(
 	'selecttag-desc' => 'Nagdaragdag ng maipapasadyang &lt;piliin&gt; para sa pagsisingit ng teksto sa pamamagitan ng pagsalok ng kalipunan ng dato',
-	'sourceattr-unspecified' => 'Kamalian! Hindi tinukoy ang katangian ng pinagmulan!',
+	'selecttag-sourceattr-unspecified' => 'Kamalian! Hindi tinukoy ang katangian ng pinagmulan!',
 );
 
