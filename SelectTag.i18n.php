@@ -39,6 +39,7 @@ $messages['ast'] = array(
  */
 $messages['be-tarask'] = array(
 	'selecttag-desc' => 'Дадае зьмяняльны тэг &lt;select&gt;, запоўнены з базы зьвестак, для даданьня на старонкі',
+	'selecttag-sourceattr-unspecified' => 'Памылка: не пазначаны атрыбут крыніцы.',
 );
 
 /** German (Deutsch)
