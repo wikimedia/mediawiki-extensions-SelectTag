@@ -71,6 +71,7 @@ $messages['es'] = array(
  */
 $messages['fr'] = array(
 	'selecttag-desc' => 'Ajoute des &lt;select&gt; personnalisables pour insérer du texte depuis une interrogation de base de données',
+	'selecttag-sourceattr-unspecified' => 'Erreur: Attribut source non spécifié.',
 );
 
 /** Galician (galego)
