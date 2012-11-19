@@ -146,6 +146,13 @@ $messages['mk'] = array(
 	'selecttag-sourceattr-unspecified' => 'Грешка! Не е укажан атрибут за извор!',
 );
 
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
+$messages['nb'] = array(
+	'selecttag-desc' => 'Legger til egendefinerbar &lt;select&gt; for å sette inn tekst henta fra databasen',
+	'selecttag-sourceattr-unspecified' => 'Feil: Kildeattributt ikke angitt.',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
