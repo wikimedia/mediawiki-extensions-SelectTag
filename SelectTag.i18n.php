@@ -178,6 +178,13 @@ $messages['pms'] = array(
 	'selecttag-sourceattr-unspecified' => "Eror: L'atribù Sorgiss a l'é pa stàit specificà.",
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'selecttag-sourceattr-unspecified' => 'දෝෂය: මූලාශ්‍ර ලක්ෂණය විශේෂණය කර නොමැත.',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
