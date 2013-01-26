@@ -192,3 +192,11 @@ $messages['tl'] = array(
 	'selecttag-desc' => 'Nagdaragdag ng maipapasadyang &lt;piliin&gt; para sa pagsisingit ng teksto sa pamamagitan ng pagsalok ng kalipunan ng dato',
 	'selecttag-sourceattr-unspecified' => 'Kamalian! Hindi tinukoy ang katangian ng pinagmulan!',
 );
+
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'selecttag-desc' => 'Додає налаштовувані &lt;виділення&gt; для вставлення тексту через вибірку бази даних',
+	'selecttag-sourceattr-unspecified' => 'Помилка: Вихідний атрибут не вказано.',
+);
