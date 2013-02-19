@@ -178,6 +178,14 @@ $messages['pms'] = array(
 	'selecttag-sourceattr-unspecified' => "Eror: L'atribù Sorgiss a l'é pa stàit specificà.",
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'selecttag-desc' => "Aggiugne 'nu &lt;select&gt; personalizzabbile pe 'nzerì 'u teste vie processamende de l'archivije",
+	'selecttag-sourceattr-unspecified' => "Errore: l'attribbute sorgende non g'è specificate.",
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
