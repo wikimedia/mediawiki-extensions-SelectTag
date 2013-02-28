@@ -20,9 +20,10 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Purodha
  * @author Raymond
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'selecttag-desc' => '{{desc}}',
+	'selecttag-desc' => '{{desc|name=Select Tag|url=http://www.mediawiki.org/wiki/Extension:SelectTag}}',
 	'selecttag-sourceattr-unspecified' => 'Message shown to the user when the _source attribute in the <select /> tag is missing.',
 );
 
