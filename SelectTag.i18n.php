@@ -13,7 +13,7 @@ $messages = array();
  * @author Khaled El Mansoury
  */
 $messages['en'] = array(
-	'selecttag-desc' => 'Adds customisable &lt;select&gt; for inserting text via database fetching',
+	'selecttag-desc' => 'Adds customizable &lt;select&gt; for inserting text via database fetching',
 	'selecttag-sourceattr-unspecified' => 'Error: Source attribute not specified.',
 );
 
