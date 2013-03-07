@@ -59,6 +59,13 @@ $messages['dsb'] = array(
 	'selecttag-sourceattr-unspecified' => 'Zmólka! Žrědłowy atribut njejo pódany!',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'selecttag-desc' => 'Adds customisable &lt;select&gt; for inserting text via database fetching',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  */
