@@ -216,3 +216,11 @@ $messages['uk'] = array(
 	'selecttag-desc' => 'Додає налаштовувані &lt;виділення&gt; для вставлення тексту через вибірку бази даних',
 	'selecttag-sourceattr-unspecified' => 'Помилка: Вихідний атрибут не вказано.',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'selecttag-desc' => '加入可自訂&lt;select&gt;以通過讀取資料庫插入文本',
+	'selecttag-sourceattr-unspecified' => '錯誤：未指定的原始授權。',
+);
