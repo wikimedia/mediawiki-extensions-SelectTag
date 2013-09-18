@@ -186,6 +186,21 @@ $messages['pms'] = array(
 	'selecttag-sourceattr-unspecified' => "Eror: L'atribù Sorgiss a l'é pa stàit specificà.",
 );
 
+/** Portuguese (português)
+ * @author Cainamarques
+ */
+$messages['pt'] = array(
+	'selecttag-sourceattr-unspecified' => 'Erro: Atributo de origem não especificado.',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'selecttag-desc' => 'Adiciona a etiqueta personalizável &lt;select&gt; para inserir texto por meio de procura em base de dados',
+	'selecttag-sourceattr-unspecified' => 'Erro: Atributo de origem não especificado.',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
