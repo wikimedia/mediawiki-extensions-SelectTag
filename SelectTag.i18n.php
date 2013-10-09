@@ -209,6 +209,14 @@ $messages['roa-tara'] = array(
 	'selecttag-sourceattr-unspecified' => "Errore: l'attribbute sorgende non g'è specificate.",
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'selecttag-desc' => 'Добавляет настраиваемый тег &lt;select&gt; для вставки текста с помощью выборки из базы данных',
+	'selecttag-sourceattr-unspecified' => 'Ошибка: Исходный атрибут не указан.',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
