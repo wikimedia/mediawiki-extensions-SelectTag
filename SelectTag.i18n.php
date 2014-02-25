@@ -74,6 +74,13 @@ $messages['es'] = array(
 	'selecttag-sourceattr-unspecified' => 'Error: Atributo de fuente no especificado.',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'selecttag-sourceattr-unspecified' => 'خطا: ویژگی منبع تعیین نشده‌است.',
+);
+
 /** French (français)
  * @author Gomoko
  */
