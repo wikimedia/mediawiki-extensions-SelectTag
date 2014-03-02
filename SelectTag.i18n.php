@@ -78,6 +78,7 @@ $messages['es'] = array(
  * @author Armin1392
  */
 $messages['fa'] = array(
+	'selecttag-desc' => 'افزودن &lt;select&gt قابل سفارشی؛ برای قرار دادن متن از طریق آوردن پایگاه اطلاعاتی',
 	'selecttag-sourceattr-unspecified' => 'خطا: ویژگی منبع تعیین نشده‌است.',
 );
 
