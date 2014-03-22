@@ -248,6 +248,14 @@ $messages['uk'] = array(
 	'selecttag-sourceattr-unspecified' => 'Помилка: Вихідний атрибут не вказано.',
 );
 
+/** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hans'] = array(
+	'selecttag-desc' => '加入可定制的&lt;select&gt;用于通过数据库读取插入文本',
+	'selecttag-sourceattr-unspecified' => '错误：源属性未指明。',
+);
+
 /** Traditional Chinese (中文（繁體）‎)
  * @author Justincheng12345
  */
