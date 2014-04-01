@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Shirayuki"
+        ]
+    },
+    "selecttag-desc": "Adds customisable &lt;select&gt; for inserting text via database fetching"
+}

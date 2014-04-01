@@ -29,10 +29,11 @@ $wgExtensionCredits['parserhook'][] = array(
 	'author' => '[http://www.expressprogs.com Khaled El Mansoury]',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:SelectTag',
 	'descriptionmsg' => 'selecttag-desc',
-	'version' => '1.0.3'
+	'version' => '1.1.0'
 );
 
 $dir = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['SelectTag'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['SelectTag'] = $dir . 'SelectTag.i18n.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'wfSelectTagParserInit';
