@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Beta16",
-            "Darth Kule"
-        ]
-    },
-    "selecttag-desc": "Aggiunge &lt;select&gt; personalizzabile per l'inserimento di testo tramite recupero da database",
-    "selecttag-sourceattr-unspecified": "Errore: non è stato specificato l'attributo sorgente."
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Darth Kule"
+		]
+	},
+	"selecttag-desc": "Aggiunge &lt;select&gt; personalizzabile per l'inserimento di testo tramite recupero da database",
+	"selecttag-sourceattr-unspecified": "Errore: non è stato specificato l'attributo sorgente."
 }

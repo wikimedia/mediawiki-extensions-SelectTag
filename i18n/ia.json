@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "McDutchie"
-        ]
-    },
-    "selecttag-desc": "Adde un &lt;select&gt; personalisabile pro inserer texto via consultas de base de datos"
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"selecttag-desc": "Adde un &lt;select&gt; personalisabile pro inserer texto via consultas de base de datos"
 }
