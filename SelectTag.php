@@ -32,9 +32,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'version' => '1.1.0'
 );
 
-$dir = dirname( __FILE__ ) . '/';
 $wgMessagesDirs['SelectTag'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['SelectTag'] = $dir . 'SelectTag.i18n.php';
 
 $wgHooks['ParserFirstCallInit'][] = 'wfSelectTagParserInit';
 
