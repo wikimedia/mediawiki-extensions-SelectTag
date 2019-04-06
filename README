@@ -22,4 +22,4 @@ WHERE arr1='value1' AND arr2='value2' AND arr3='value3';
 The full documentation for the SelectTag extension can be found at the following address:
 http://www.expressprogs.com/products/mwext/selecttag/
 The MediaWiki extension page can be found at this address:
-http://www.mediawiki.org/wiki/Extension:SelectTag
+https://www.mediawiki.org/wiki/Extension:SelectTag

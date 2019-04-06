@@ -16,7 +16,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 --
 Links:
 Full documentation available at: http://www.expressprogs.com/products/mwext/selecttag/
-MediaWiki page: http://www.mediawiki.org/wiki/Extension:SelectTag
+MediaWiki page: https://www.mediawiki.org/wiki/Extension:SelectTag
 */
 
 if ( !defined( 'MEDIAWIKI' ) ) {
