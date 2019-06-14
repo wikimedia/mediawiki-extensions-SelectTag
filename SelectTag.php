@@ -53,7 +53,7 @@ function wfSelectTagRender( $input, array $params, Parser $parser, PPFrame $fram
 
 	$dbtable    = $sourcearray["_dbname"];
 	$cond       = '';
-	$cond_array = [ ];
+	$cond_array = [];
 
 	if ( isset( $params['_show'] ) ) {
 			$show = $sourcearray["_show"][$params['_show']];
@@ -86,7 +86,7 @@ function wfSelectTagRender( $input, array $params, Parser $parser, PPFrame $fram
 			}
 	}
 
-	$res          = $dbr->select( $dbtable, $cond_array, $cond, __METHOD__, [ ] );
+	$res          = $dbr->select( $dbtable, $cond_array, $cond, __METHOD__, [] );
 	$return_value = '';
 	while ( $row = $dbr->fetchRow( $res ) ) {
 			if ( $return_value == '' ) {
