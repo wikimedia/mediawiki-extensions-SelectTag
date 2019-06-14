@@ -23,14 +23,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'This file is a MediaWiki extension, it is not a valid entry point' );
 }
 
-$wgExtensionCredits['parserhook'][] = array(
+$wgExtensionCredits['parserhook'][] = [
 	'path' => __FILE__,
 	'name' => 'SelectTag',
 	'author' => '[http://www.expressprogs.com Khaled El Mansoury]',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:SelectTag',
 	'descriptionmsg' => 'selecttag-desc',
 	'version' => '1.1.0'
-);
+];
 
 $wgMessagesDirs['SelectTag'] = __DIR__ . '/i18n';
 
@@ -53,7 +53,7 @@ function wfSelectTagRender( $input, array $params, Parser $parser, PPFrame $fram
 
 	$dbtable    = $sourcearray["_dbname"];
 	$cond       = '';
-	$cond_array = array( );
+	$cond_array = [ ];
 
 	if ( isset( $params['_show'] ) ) {
 			$show = $sourcearray["_show"][$params['_show']];
@@ -86,7 +86,7 @@ function wfSelectTagRender( $input, array $params, Parser $parser, PPFrame $fram
 			}
 	}
 
-	$res          = $dbr->select( $dbtable, $cond_array, $cond, __METHOD__, array( ) );
+	$res          = $dbr->select( $dbtable, $cond_array, $cond, __METHOD__, [ ] );
 	$return_value = '';
 	while ( $row = $dbr->fetchRow( $res ) ) {
 			if ( $return_value == '' ) {
