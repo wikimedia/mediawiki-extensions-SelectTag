@@ -43,7 +43,7 @@ function wfSelectTagParserInit( Parser $parser ) {
 
 function wfSelectTagRender( $input, array $params, Parser $parser, PPFrame $frame ) {
 	global $wgSelectTag;
-	$parser->disableCache();
+	$parser->getOutput()->updateCacheExpiry( 0 );
 	$dbr = wfGetDB( DB_REPLICA );
 	if ( isset( $params['_source'] ) ) {
 			$sourcearray = $wgSelectTag[$params['_source']];
