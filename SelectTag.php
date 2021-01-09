@@ -88,11 +88,11 @@ function wfSelectTagRender( $input, array $params, Parser $parser, PPFrame $fram
 
 	$res          = $dbr->select( $dbtable, $cond_array, $cond, __METHOD__, [] );
 	$return_value = '';
-	while ( $row = $dbr->fetchRow( $res ) ) {
+	foreach ( $res as $row ) {
 			if ( $return_value == '' ) {
-					$return_value = $row[$show];
+					$return_value = $row->$show;
 			} else {
-					$return_value .= "<br />" . $row[$show];
+					$return_value .= "<br />" . $row->$show;
 			}
 	}
 	return $return_value;
