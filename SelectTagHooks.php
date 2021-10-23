@@ -27,7 +27,10 @@ class SelectTagHooks {
 		if ( isset( $params['_source'] ) ) {
 			$sourcearray = $wgSelectTag[$params['_source']];
 		} else {
-			return '<div style="color: red;">' . wfMessage( 'selecttag-sourceattr-unspecified' )->inContentLanguage()->escaped() . '</div>';
+			return '<div style="color: red;">' .
+				wfMessage( 'selecttag-sourceattr-unspecified' )
+					->inContentLanguage()
+					->escaped() . '</div>';
 		}
 
 		$dbtable    = $sourcearray["_dbname"];
