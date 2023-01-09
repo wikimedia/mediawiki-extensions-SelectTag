@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"selecttag-desc": "Doda prilagodljivo značko &lt;select&gt; za vstavljanje besedila s pridobitvijo iz podatkovne zbirke",
+	"selecttag-sourceattr-unspecified": "Napaka: Atribut vira ni določen."
+}
