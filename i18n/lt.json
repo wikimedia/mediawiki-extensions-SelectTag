@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"selecttag-desc": "Prideda tinkinamą &lt;select&gt;, kad būtų galima įterpti tekstą gaunant duomenis iš duomenų bazės",
+	"selecttag-sourceattr-unspecified": "Klaida: nenurodytas šaltinio atributas."
+}
