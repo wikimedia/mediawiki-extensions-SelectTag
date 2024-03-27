@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Armin1392"
+			"Armin1392",
+			"Ebraminio"
 		]
 	},
 	"selecttag-desc": "افزودن &lt;select&gt قابل سفارشی؛ برای قرار دادن متن از طریق آوردن پایگاه اطلاعاتی",
-	"selecttag-sourceattr-unspecified": "خطا: ویژگی منبع تعیین نشده‌است."
+	"selecttag-sourceattr-unspecified": "خطا: ویژگی منبع تعیین نشده است."
 }
