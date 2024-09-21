@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class SelectTagHooks {
 	/**
 	 * @param Parser $parser
@@ -24,7 +26,7 @@ class SelectTagHooks {
 		global $wgSelectTag;
 
 		$parser->getOutput()->updateCacheExpiry( 0 );
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 		if ( isset( $params['_source'] ) ) {
 			$sourcearray = $wgSelectTag[$params['_source']];
 		} else {
