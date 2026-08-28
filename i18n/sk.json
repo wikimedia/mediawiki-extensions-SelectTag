@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"selecttag-desc": "Pridáva prispôsobiteľný prvok &lt;select&gt; na vkladanie textu získaného z databázy",
+	"selecttag-sourceattr-unspecified": "Chyba: Nie je zadaný atribút source."
+}
